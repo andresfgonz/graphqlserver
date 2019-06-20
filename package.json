@@ -1,0 +1,42 @@
+{
+  "name": "ruteo-tc-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andres Felipe Gonzalez",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/graphql": "^14.0.7",
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/mongoose": "^5.3.22",
+    "tslint": "^5.14.0",
+    "tslint-microsoft-contrib": "^6.1.0"
+  },
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.4",
+    "fetch": "^1.1.0",
+    "graphql": "^14.1.1",
+    "graphql-tools": "^4.0.4",
+    "jsonwebtoken": "^8.5.0",
+    "module-alias": "^2.2.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.19",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^8.0.3",
+    "type-graphql": "^0.17.0",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon"
+  },
+  "_moduleAliases": {
+    "@schema": "src/graphql/schema",
+    "@controllers": "src/db/controllers",
+    "@appTypes": "src/types.ts",
+    "@db": "src/db",
+    "@graphql": "src/graphql"
+  }
+}

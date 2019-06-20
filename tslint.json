@@ -1,0 +1,7 @@
+{
+  "extends": ["tslint-microsoft-contrib/latest"],
+  "rules": {
+    "export-name": false,
+    "insecure-random": false
+  }
+}
