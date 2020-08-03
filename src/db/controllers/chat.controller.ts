@@ -21,7 +21,6 @@ export class ChatController extends AbstractController<ChatModel> {
     return this.model.findByIdAndUpdate(chatId, {
       active: false,
       expired: true,
-      expiredAt: Date.now(),
     }, { new: true }).exec();
   }
 

@@ -13,7 +13,7 @@ export class AbstractController<T extends Document> {
   }
 
   findInArray(ids: string[]): Promise<T[]> {
-    return this.model.find({ _id: { $in: ids } }).exec();
+    return this.model.find().exec();
   }
 
   create(document: Partial<T>): Promise<T> {
