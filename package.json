@@ -13,7 +13,7 @@
     "tslint-microsoft-contrib": "^6.1.0"
   },
   "dependencies": {
-    "apollo-server": "^2.4.8",
+    "apollo-server": "^2.25.3",
     "axios": "^0.18.0",
     "bcrypt": "^3.0.4",
     "fetch": "^1.1.0",
