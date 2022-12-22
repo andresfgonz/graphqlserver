@@ -19,7 +19,7 @@
     "fetch": "^1.1.0",
     "graphql": "^14.1.1",
     "graphql-tools": "^4.0.4",
-    "jsonwebtoken": "^8.5.0",
+    "jsonwebtoken": "^9.0.0",
     "module-alias": "^2.2.0",
     "moment": "^2.24.0",
     "mongoose": "^5.4.19",
